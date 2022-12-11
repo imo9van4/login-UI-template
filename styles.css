@@ -18,6 +18,11 @@
     align-items: center;
     border-color: white;    
 }
+.box{
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
 .form h2{
     font-size: 3rem;
     font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
