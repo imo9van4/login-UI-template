@@ -3,36 +3,35 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.container-fluid{
+.container{
     display: flex;
-    height: 700px;
+    height: 500px;
     width: 800px;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     margin: auto;
     margin-top: 50px;
+}
+body{
+    background-color: goldenrod;
 }
 .form{
     display: flex;
     flex-direction: column;
     width: 50%;
     align-items: center;
-    border-color: white;    
-}
-.box{
-    border-radius: 10px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    background-color: wheat;  
+    
 }
 .form h2{
     font-size: 3rem;
     font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 40px;
 }
-.form{
+.box{
     padding: 12px;
     width: 65%;
     margin: 15px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     outline: none;
     border-radius: 20px;
 }
@@ -62,12 +61,11 @@
 /*Right side*/
 .right-side{
     display:flex;
-    background-color: yellow;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
-.side img{
+.right-side img{
     width: 450px;
     height: 450px;
 }
