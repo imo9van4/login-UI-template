@@ -54,3 +54,15 @@
 .form a:hover{
     color: salmon;
 }
+/*Right side*/
+.right-side{
+    display:flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.side img{
+    width: 450px;
+    height: 450px;
+}
