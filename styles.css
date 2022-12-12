@@ -10,7 +10,7 @@
     width: 80vw;
 }
 body{
-    background-color: goldenrod;
+    background-color: whitesmoke;
 }
 .form{
     display: flex;
@@ -19,6 +19,12 @@ body{
     align-items: center;
     background-color: wheat;  
     
+}
+input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
 }
 .form h2{
     font-size: 3rem;
@@ -29,7 +35,6 @@ body{
     width: 65%;
     margin: 5px;
     outline: none;
-    border-radius: 20px;
 }
 #submit{
     padding: 12px 30px;
@@ -44,7 +49,7 @@ body{
 }
 #submit:hover{
     cursor: pointer;
-    background-color: red;
+    background-color: salmon;
 }
 .form a{
     text-decoration: none;
