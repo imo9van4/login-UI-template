@@ -33,7 +33,7 @@ body{
     outline: none;
     border-radius: 20px;
 }
-#submit{
+#submit, .btn-btn-primary{
     padding: 12px 30px;
     width: 40%;
     margin-top: 40px;
