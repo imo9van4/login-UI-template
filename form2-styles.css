@@ -8,7 +8,6 @@
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    
     width: 80vw;
 }
 body{
@@ -20,7 +19,6 @@ body{
     width: 50%;
     align-items: center;
     background-color: wheat;  
-    
 }
 input{
     border: 0;
@@ -28,9 +26,8 @@ input{
     background: transparent;
     border-bottom: 1px solid black;
 }
-.form h2{
-    font-size: 3rem;
-    margin: 3px;
+.form h3{
+    text-align: center;
 }
 .box{
     padding: 12px;
@@ -39,7 +36,7 @@ input{
     outline: none;
 }
 #submit{
-    padding: 12px 30px;
+    padding: 12px 12px;
     width: 40%;
     margin-top: 6px;
     background-color: black;
@@ -48,6 +45,9 @@ input{
     border: none;
     outline: none;
     border-radius: 20px;
+}
+#submit a{
+    color: white;
 }
 #submit:hover{
     cursor: pointer;
