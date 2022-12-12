@@ -1,3 +1,6 @@
+*{
+    font-family: 'Merriweather', serif;
+    }
 .container{
     display: flex;
     height: 300px;
@@ -19,7 +22,6 @@ body{
 }
 .form h2{
     font-size: 3rem;
-    font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 6px;
 }
 .box{
@@ -47,7 +49,7 @@ body{
 .form a{
     text-decoration: none;
     color: black;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 .form a:hover{
     color: salmon;

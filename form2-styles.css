@@ -1,3 +1,6 @@
+*{
+font-family: 'Merriweather', serif;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -24,7 +27,6 @@ body{
 }
 .form h2{
     font-size: 3rem;
-    font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 40px;
 }
 .box{
