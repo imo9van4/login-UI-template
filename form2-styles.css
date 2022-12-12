@@ -1,45 +1,45 @@
 *{
-font-family: 'Merriweather', serif;
-}
+    font-family: 'Merriweather', serif;
+    }
 .container{
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 500px;
-    width: 800px;
+    width: 300px;
     margin: auto;
     margin-top: 50px;
+    width: 80vw;
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: goldenrod;
+    background-color: whitesmoke;
 }
 .form{
     display: flex;
     flex-direction: column;
+    width: 50%;
     align-items: center;
-    justify-content: center;
     background-color: wheat;  
-    width: 75%;
     
+}
+input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
 }
 .form h2{
     font-size: 3rem;
-    margin: 40px;
+    margin: 6px;
 }
 .box{
     padding: 12px;
     width: 65%;
-    margin: 15px;
+    margin: 5px;
     outline: none;
-    border-radius: 20px;
 }
-#submit, .btn-btn-primary{
+#submit{
     padding: 12px 30px;
     width: 40%;
-    margin-top: 40px;
+    margin-top: 8px;
     background-color: black;
     color: white;
     font-weight: bold;
@@ -49,13 +49,24 @@ body{
 }
 #submit:hover{
     cursor: pointer;
-    background-color: red;
+    background-color: salmon;
 }
 .form a{
     text-decoration: none;
     color: black;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 .form a:hover{
     color: salmon;
+}
+/*Right side*/
+.right-side{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.right-side img{
+    width: 120%;
+    height: 500px;
 }
