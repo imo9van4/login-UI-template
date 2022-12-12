@@ -3,7 +3,7 @@
     }
 .container{
     display: flex;
-    height: 370px;
+    height: 500px;
     width: 400px;
     margin: auto;
     margin-top: 20px;
@@ -70,5 +70,5 @@ input{
 }
 .right-side img{
     width: 130%;
-    height: 370px;
+    height: 500px;
 }
